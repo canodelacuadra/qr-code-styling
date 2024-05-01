@@ -1,4 +1,4 @@
-import './node_modules/styled-qr-code/lib/styled-qr-code.js'
+//git import './node_modules/styled-qr-code/lib/styled-qr-code.js'
 const qrCode = new QRCodeStyling({
             width: 300,
             height: 300,
