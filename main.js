@@ -3,18 +3,19 @@ const qrCode = new QRCodeStyling({
             width: 300,
             height: 300,
             type: "svg",
-            data: "https://www.facebook.com/",
-            image: "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
+            data: "https://www.patrimonionacional.es/",
+            image: "./images/logotipo.png",
             dotsOptions: {
-                color: "#4267b2",
+                color: "#BE9857",
                 type: "rounded"
             },
             backgroundOptions: {
-                color: "#e9ebee",
+                color: "#76D987",
             },
             imageOptions: {
                 crossOrigin: "anonymous",
-                margin: 20
+                margin: 5,
+                imageSize:0.5
             }
         });
 
