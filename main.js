@@ -1,4 +1,4 @@
-import './node_modules/styled-qr-code/lib/styled-qr-code.js'
+//import './node_modules/styled-qr-code/lib/styled-qr-code.js'
 const qrCode = new QRCodeStyling({
             width: 300,
             height: 300,
@@ -20,4 +20,4 @@ const qrCode = new QRCodeStyling({
         });
 
         qrCode.append(document.getElementById("canvas"));
-        qrCode.download({ name: "qr", extension: "svg" });
+        //qrCode.download({ name: "qr", extension: "svg" });
